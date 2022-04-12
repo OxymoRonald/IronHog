@@ -1,102 +1,86 @@
 {
-    "Food":{
+    "Parts":{
         "type": "items",
-        "Dirty Fries":{
-            "description": "That&apos;s some dirty fries",
-            "image": "fries.png",
-            "price": 80
+        "M Class":{
+            "description": "Motorcycle Parts",
+            "image": "parts_m.png",
+            "price": 133
         },
-        "Heart Attack Burger":{
-            "description": "That&apos;s a nice burger",
-            "image": "burger.png",
-            "price": 80
+        "B Class":{
+            "description": "B Class Parts",
+            "image": "parts_b.png",
+            "price": 133
         },
-        "Mammas Chicken Wings":{
-            "description": "That&apos;s some good wings",
-            "image": "unknown.png",
-            "price": 80
+        "C Class":{
+            "description": "C Class Parts",
+            "image": "parts_c.png",
+            "price": 111
+        },
+        "D Class":{
+            "description": "D Class Parts",
+            "image": "parts_d.png",
+            "price": 90
         }
     },
-    "Drinks":{
+    "Car Care":{
         "type": "items",
-        "Sweet Tea":{
-            "description": "That&apos;s some sweet tea",
-            "image": "unknown.png",
-            "price": 80
+        "1 Day Wax":{
+            "description": "Wax that lasts for 24 hours",
+            "image": "wax_1day.png",
+            "price": 320
         },
-        "Root Beer":{
-            "description": "That&apos;s some root beer",
+        "3 Day Wax":{
+            "description": "Wax that lasts for 72 hours",
             "image": "unknown.png",
-            "price": 80
+            "price": 1250
         },
-        "Beer":{
-            "description": "That&apos;s some beer",
+        "7 Day Wax":{
+            "description": "Wax that lasts for 1 Week",
             "image": "unknown.png",
-            "price": 80
+            "price": 2130
         },
-        "Whiskey":{
-            "description": "That&apos;s some whiskey",
+        "Repair Kit":{
+            "description": "Regular Repair Kit",
             "image": "unknown.png",
-            "price": 80
+            "price": 350
         },
-        "Vodka":{
-            "description": "That&apos;s some vodka",
-            "image": "unknown.png",
-            "price": 80
+        "Advanced Repair Kit":{
+            "description": "Advanced Repair Kit",
+            "image": "repairkit_adv.png",
+            "price": 1750
         }
     },
     "Miscelaneous":{
         "type": "items",
-        "Whiskey Tincture":{
-            "description": "That&apos;s some healing",
-            "image": "unknown.png",
-            "price": 80
+        "Lockpick":{
+            "description": "Regular Lockpick",
+            "image": "pick_reg.png",
+            "price": 400
         },
-        "Morningwood Cigarettes":{
-            "description": "That&apos;s some smokes",
-            "image": "unknown.png",
-            "price": 80
+        "Lockpick <= 89%":{
+            "description": "Regular Lockpick",
+            "image": "pick_reg.png",
+            "price": 360
         },
-        "Lost Plushie":{
-            "description": "That&apos;s a cute plushie",
-            "image": "unknown.png",
-            "price": 80
-        }
-    },
-    "Combos":{
-        "type": "combos",
-        "Heart Attack Meal":{
-            "description": "Heart Attack Meal description",
-            "image": "unknown.png",
-            "items":{
-                "Dirty Fries":1, 
-                "Heart Attack Burger":1, 
-                "Root Beer":1
-            },
-            "price":230
+        "Advanced Lockpick":{
+            "description": "Advanced Lockpick <= 89%",
+            "image": "pick_adv.png",
+            "price": 3000
         },
-        "Hungry Man Combo":{
-            "description": "Hungry Man Combo description",
-            "image": "unknown.png",
-            "items":{
-                "Dirty Fries":2, 
-                "Heart Attack Burger":3, 
-                "Root Beer":2
-            },
-            "price":540
+        "Advanced Lockpick <= 89%":{
+            "description": "Advanced Lockpick <= 89%",
+            "image": "pick_adv.png",
+            "price": 2700
         },
-        "Gimme the 9s":{
-            "description": "Gimme the nines description",
-            "image": "unknown.png",
-            "items":{
-                "Dirty Fries":2, 
-                "Heart Attack Burger":2, 
-                "Mammas Chicken Wings":2,
-                "Sweet Tea":2,
-                "Root Beer":2,
-                "Whiskey Tincture":4
-            },
-            "price":999
+        "Radio":{
+            "description": "Radio quality",
+            "image": "radio.png",
+            "price": 1750
+        },
+        "Radio <= 89%":{
+            "description": "Radio quality <= 89%",
+            "image": "radio.png",
+            "price": 1575
         }
     }
 }
