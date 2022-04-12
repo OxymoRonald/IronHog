@@ -96,6 +96,7 @@ body {
     .ordercounter {
         text-align: center;
         padding: 0px 5px;
+        width:30px;
     }
 
     .orderimage {
@@ -109,7 +110,7 @@ body {
         }
 
     .ordertitle {
-        width:310px;
+        width:300px;
     }
 
     .orderprice {
