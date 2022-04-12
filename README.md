@@ -1,6 +1,7 @@
 ## IronHog Point of Sale
 
 This is a javascript Point Of Sale app I designed for use in RP.
+Check it out here https://oxymoronald.github.io/IronHog/
 
 ### Attribution
 
