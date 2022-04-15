@@ -31,17 +31,17 @@
         },
         "3 Day Wax":{
             "description": "Wax that lasts for 72 hours",
-            "image": "unknown.png",
+            "image": "wax_3day.png",
             "price": 1250
         },
         "7 Day Wax":{
             "description": "Wax that lasts for 1 Week",
-            "image": "unknown.png",
+            "image": "wax_7day.png",
             "price": 2130
         },
         "Repair Kit":{
             "description": "Regular Repair Kit",
-            "image": "unknown.png",
+            "image": "repairkit_reg.png",
             "price": 350
         },
         "Advanced Repair Kit":{
