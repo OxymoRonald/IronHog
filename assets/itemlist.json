@@ -4,12 +4,17 @@
         "M Class":{
             "description": "Motorcycle Parts",
             "image": "parts_m.png",
-            "price": 133
+            "price": 134
+        },
+        "A Class":{
+            "description": "B Class Parts",
+            "image": "parts_a.png",
+            "price": 338
         },
         "B Class":{
             "description": "B Class Parts",
             "image": "parts_b.png",
-            "price": 133
+            "price": 134
         },
         "C Class":{
             "description": "C Class Parts",
@@ -27,17 +32,17 @@
         "1 Day Wax":{
             "description": "Wax that lasts for 24 hours",
             "image": "wax_1day.png",
-            "price": 320
+            "price": 308
         },
         "3 Day Wax":{
             "description": "Wax that lasts for 72 hours",
             "image": "wax_3day.png",
-            "price": 1250
+            "price": 1290
         },
         "7 Day Wax":{
             "description": "Wax that lasts for 1 Week",
             "image": "wax_7day.png",
-            "price": 2130
+            "price": 2000
         },
         "Repair Kit":{
             "description": "Regular Repair Kit",
@@ -47,7 +52,7 @@
         "Advanced Repair Kit":{
             "description": "Advanced Repair Kit",
             "image": "repairkit_adv.png",
-            "price": 1750
+            "price": 3000
         }
     },
     "Miscelaneous":{
@@ -57,30 +62,40 @@
             "image": "pick_reg.png",
             "price": 400
         },
-        "Lockpick <= 89%":{
-            "description": "Regular Lockpick",
-            "image": "pick_reg.png",
-            "price": 360
-        },
         "Advanced Lockpick":{
             "description": "Advanced Lockpick <= 89%",
             "image": "pick_adv.png",
             "price": 3000
         },
-        "Advanced Lockpick <= 89%":{
-            "description": "Advanced Lockpick <= 89%",
-            "image": "pick_adv.png",
-            "price": 2700
-        },
         "Radio":{
             "description": "Radio quality",
             "image": "radio.png",
-            "price": 1750
+            "price": 2000  
         },
         "Radio <= 89%":{
             "description": "Radio quality <= 89%",
             "image": "radio.png",
-            "price": 1575
+            "price": 1800
+        },
+        "Radio <= 79%":{
+            "description": "Radio quality <= 79%",
+            "image": "radio.png",
+            "price": 1600
+        },
+        "Radio <= 69%":{
+            "description": "Radio quality <= 69%",
+            "image": "radio.png",
+            "price": 1400
+        },
+        "Radio <= 59%":{
+            "description": "Radio quality <= 59%",
+            "image": "radio.png",
+            "price": 1200
+        },
+        "Radio < 50%":{
+            "description": "Radio quality < 50%",
+            "image": "radio.png",
+            "price": 1000
         }
     }
 }
